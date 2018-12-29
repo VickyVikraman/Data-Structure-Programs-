@@ -1,0 +1,14 @@
+class D
+{
+	public static void main(String ar[])
+	{
+		new summa()''
+	}
+}
+abstract class summa
+{
+	summa()
+	{
+		System.out.println("Summa abstract class");
+	}
+}

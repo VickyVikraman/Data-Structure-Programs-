@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Rat 
+{
+	static int r,c;
+	public static void main(String ar[])
+	{
+		Scanner sc= new Scanner(System.in);
+		r=sc.nextInt();
+		c=sc.nextInt();
+		int a[][]=new int[r][c];
+		int sol[][]=new int[r][c];
+		for(int i=0;i<r;i++)
+		{
+			for(int j=0;j<c;j++)
+			{
+				a[r][c]=sc.nextInt();
+				sol[i][j]=0;
+			}
+		}
+		find(a,0,0,sol);
+	}
+	public static void find(int a[][],int x,int y,int sol[][])
+	{
+		
+	}
+}

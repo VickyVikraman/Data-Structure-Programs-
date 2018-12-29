@@ -1,0 +1,9 @@
+
+public class Coda 
+{
+	public static void main(String ar[])
+	{
+		int a[]=new int[] {1,2,3,4};
+		System.out.println(a.toString());
+	}
+}

@@ -1,0 +1,25 @@
+
+public class ThisAndSuper 
+{
+	public static void maibn(String ar[])
+	{
+		Dappa d = new Dappa();
+		d.methodTwo();
+	}
+}
+class summa
+{
+	
+}
+
+class Dappa extends summa
+{
+	public void methodOne()
+	{
+		this.methodTwo();
+	}
+	public static void methodTwo()
+	{
+		
+	}
+}

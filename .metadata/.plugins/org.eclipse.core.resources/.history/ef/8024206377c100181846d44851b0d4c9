@@ -1,0 +1,19 @@
+
+public class StaticClass 
+{
+	public static void main(String[] ar)
+	{
+		Summa.printing();
+	}
+	
+	
+}
+class Summa
+{
+	 static void printing()
+	{
+		static int i=0;
+		System.out.println(i);
+		printing();
+	}
+}

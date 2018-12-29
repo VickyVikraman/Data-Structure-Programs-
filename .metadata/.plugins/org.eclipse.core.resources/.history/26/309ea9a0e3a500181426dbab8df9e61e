@@ -1,0 +1,29 @@
+class D
+{
+	public static void main(String ar[])
+	{
+		
+	}
+	
+}
+abstract class summa
+{
+	summa()
+	{
+		System.out.println("Summa abstract class");
+	}
+	public abstract void summaMethod();
+}
+interface summaInterface
+{
+	public void interfaceMethod();
+}
+class summa1 extends summa implements summaInterface
+{
+//	@Override
+//	public void summaMethod() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+	
+}

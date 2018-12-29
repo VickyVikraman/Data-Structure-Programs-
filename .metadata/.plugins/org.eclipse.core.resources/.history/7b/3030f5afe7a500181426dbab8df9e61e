@@ -1,0 +1,17 @@
+
+public class ThisAndSuper 
+{
+	public static void maibn(String ar[])
+	{
+		
+	}
+}
+class summa
+{
+	
+}
+
+class Dappa extends summa
+{
+	
+}

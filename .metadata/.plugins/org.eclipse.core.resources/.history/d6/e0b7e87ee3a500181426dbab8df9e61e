@@ -1,0 +1,20 @@
+class D
+{
+	public static void main(String ar[])
+	{
+		
+	}
+	
+}
+abstract class summa
+{
+	summa()
+	{
+		System.out.println("Summa abstract class");
+	}
+	public abstract void summaMethod();
+}
+class summa1 extends summa
+{
+	
+}

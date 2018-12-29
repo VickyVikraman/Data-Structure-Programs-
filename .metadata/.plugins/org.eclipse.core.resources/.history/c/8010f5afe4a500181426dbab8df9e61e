@@ -1,0 +1,11 @@
+class D
+{
+	public static void main(String ar[])
+	{
+		
+	}
+}
+interface SummaInterface
+{
+	int i=10;
+}

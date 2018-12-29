@@ -1,0 +1,15 @@
+
+public class StaticClass 
+{
+	public static void main(String[] ar)
+	{
+		
+	}
+	
+	static void printing()
+	{
+		static int i;
+		System.out.println(i);
+		printing();
+	}
+}

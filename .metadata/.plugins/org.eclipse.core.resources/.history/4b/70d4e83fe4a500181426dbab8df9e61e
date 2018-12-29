@@ -1,0 +1,38 @@
+class D extends summ
+{
+	public static void main(String ar[])
+	{
+		summa s=new summa1();
+//		s.summaMethod();
+		System.out.println(s.i);
+	}
+	
+}
+abstract class summa
+{
+	private int i;
+	summa()
+	{
+		System.out.println("Summa abstract class");
+	}
+	public abstract void summaMethod();
+}
+interface summaInterface
+{
+	public void interfaceMethod();
+}
+class summa1 extends summa implements summaInterface
+{
+	@Override
+	public void summaMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void interfaceMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

@@ -1,0 +1,16 @@
+class D
+{
+	public static void main(String ar[])
+	{
+		
+	}
+}
+interface SummaInterface
+{
+	static int i=1;
+	public void interfaceMethod();
+}
+abstract class SummaAbstract implements SummaInterface
+{
+	
+}

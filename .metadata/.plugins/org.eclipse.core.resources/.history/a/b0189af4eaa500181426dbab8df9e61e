@@ -1,0 +1,78 @@
+class D
+{
+	public static void main(String ar[])
+	{
+		Normal n=new Normal();
+		SummaInterface s= new Normal();
+		SummaInterface.interfaceStaticMethod();
+//		SummaInterface.i=10;
+		if(s.i==19)
+		{
+			
+		}
+		System.out.println(s.i);
+	}
+}
+interface SummaInterface
+{
+	 final static int i=1;
+	public void interfaceMethod();
+	public void interfaceMethod1();
+	static void interfaceStaticMethod() {
+		System.out.println("Static method inside the interface");
+	}
+}
+abstract class SummaAbstract implements SummaInterface
+{
+		
+	public void normalMethodInAbstract()
+	{
+		System.out.println("normalMethodInAbstract");
+	}
+	public abstract void abstractMethodInAsbtract();
+	static void staticAbstractMethod() {
+		
+	}
+}
+class Normal extends SummaAbstract
+{
+
+	@Override
+	public void interfaceMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void abstractMethodInAsbtract() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void interfaceMethod1() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+class Normal1 extends SummaAbstract
+{
+
+	@Override
+	public void interfaceMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void interfaceMethod1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void abstractMethodInAsbtract() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
